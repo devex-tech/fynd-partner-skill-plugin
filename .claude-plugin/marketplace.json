@@ -1,36 +1,17 @@
 {
-  "name": "fynd-partner",
-  "displayName": "Fynd Partner Skills",
-  "description": "Expert skills for building on Fynd Commerce — Platform API (843 ops), Extensions (General/Payment/Logistics), AI PIM, Konnect multi-channel, and React Themes.",
-  "version": "1.0.0",
-  "author": "devex-tech",
-  "homepage": "https://github.com/devex-tech/fynd-partner-skill-plugin",
-  "repository": "https://github.com/devex-tech/fynd-partner-skill-plugin",
-  "categories": ["development", "api", "ecommerce"],
-  "skills": [
+  "owner": {
+    "name": "devex-tech",
+    "url": "https://github.com/devex-tech"
+  },
+  "plugins": [
     {
       "name": "fynd-partner",
-      "description": "Top-level Fynd Partner assistant — routes to the right sub-skill based on context"
-    },
-    {
-      "name": "fynd-platform-api",
-      "description": "Fynd Platform REST API — endpoint discovery, debugging, auth, SDK usage (843 ops)"
-    },
-    {
-      "name": "fynd-extensions",
-      "description": "Fynd Extensions — General, Payment, and Logistics extension development"
-    },
-    {
-      "name": "fynd-ai-pim",
-      "description": "Fynd AI PIM — SKU enrichment, taxonomy, connectors, rule engine, marketplace publishing"
-    },
-    {
-      "name": "fynd-konnect",
-      "description": "Fynd Konnect — multi-channel selling, ERP/WMS sync, orders, inventory (31 APIs)"
-    },
-    {
-      "name": "fynd-themes",
-      "description": "Fynd Commerce Themes — React themes, FDK-CLI, SSR, submission, best practices"
+      "displayName": "Fynd Partner Skills",
+      "description": "Expert skills for building on Fynd Commerce — Platform API (843 ops), Extensions (General/Payment/Logistics), AI PIM, Konnect multi-channel, and React Themes.",
+      "version": "1.0.0",
+      "repository": "devex-tech/fynd-partner-skill-plugin",
+      "homepage": "https://github.com/devex-tech/fynd-partner-skill-plugin",
+      "categories": ["development", "api", "ecommerce"]
     }
   ]
 }
